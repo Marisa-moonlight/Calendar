@@ -1,0 +1,68 @@
+body{
+background-image: url(space.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.calender-body{
+    display:grid;
+    background-color: #4E545C;
+   width:50%;
+   height:100%;
+    margin:auto;  
+}
+
+.calendar-weekDays{
+   display:grid;
+   padding:1%;
+    grid-template-columns: repeat(7,1fr);
+    background-color: #8D9797;
+    color: #000401;
+    column-gap:5%;
+    font-size: 1.5rem;
+    text-align:center;      
+}
+
+.calendar-monthDays{
+    display:grid;
+    padding: 3%;
+    grid-template-columns: repeat(7,1fr);
+    border: 10px ridge cyan;
+    color:#000401;
+    column-gap:4%;
+    row-gap: 10px;
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+.monthname{
+    background-color:cyan;
+    color: #E5E8E8;
+    border: 10px rgb(44, 44, 44) ridge;
+   padding:0;
+    width:50%;
+    margin-top:2%;
+    margin-left:25%;
+    margin-right:25%;
+
+}
+
+
+
+h1{
+    
+    font-size:2rem;
+    padding:5%;
+    margin-bottom:-2%;
+    text-align:center;
+}
+
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.prevMonth , .nextMonth{
+   padding:5px;
+}
